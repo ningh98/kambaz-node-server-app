@@ -1,3 +1,4 @@
+import "dotenv/config";
 import express from 'express';
 import Hello from "./Hello.js";
 import Lab5 from "./Lab5/index.js";
@@ -9,6 +10,11 @@ import CourseRoutes from './Kambaz/Courses/routes.js';
 import ModuleRoutes from './Kambaz/Modules/routes.js';
 import AssignmentsRoutes from './Kambaz/Assignments/routes.js';
 import EnrollmentRoutes from './Kambaz/Enrollments/routes.js';
+import mongoose from "mongoose";
+
+const CONNECTION_URL = process.env.MONGo_CONNECTION_STRING || "mongodb://127.0.0.1:27017/kambaz"
+mongoose.connect(CONNECTION_URL);
+
 const app = express();
 app.use(cors({
     credentials: true,
@@ -29,7 +35,7 @@ if (process.env.NODE_ENV !== "development") {
 };
 }
 
-  
+
 app.use(
 session(sessionOptions)
 );
