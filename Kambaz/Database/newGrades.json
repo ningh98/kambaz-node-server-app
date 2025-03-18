@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "1",
+    "student": "121",
+    "assignment": "67d79f1d512e79dc0f84c239",
+    "grade": "90"
+  },
+  {
+    "_id": "2",
+    "student": "122",
+    "assignment": "67d79f1d512e79dc0f84c239",
+    "grade": "91"
+  },
+  {
+    "_id": "3",
+    "student": "67d79f1d512e79dc0f84c230",
+    "assignment": "67d79f1d512e79dc0f84c239",
+    "grade": "92"
+  },
+  {
+    "_id": "4",
+    "student": "121",
+    "assignment": "67d79f1d512e79dc0f84c23a",
+    "grade": "92"
+  },
+  {
+    "_id": "5",
+    "student": "122",
+    "assignment": "67d79f1d512e79dc0f84c23a",
+    "grade": "91"
+  },
+  {
+    "_id": "6",
+    "student": "67d79f1d512e79dc0f84c230",
+    "assignment": "67d79f1d512e79dc0f84c23a",
+    "grade": "90"
+  },
+  {
+    "_id": "7",
+    "student": "124",
+    "assignment": "67d79f1d512e79dc0f84c23c",
+    "grade": "80"
+  },
+  {
+    "_id": "8",
+    "student": "125",
+    "assignment": "67d79f1d512e79dc0f84c23c",
+    "grade": "81"
+  },
+  {
+    "_id": "9",
+    "student": "126",
+    "assignment": "67d79f1d512e79dc0f84c23c",
+    "grade": "82"
+  },
+  {
+    "_id": "10",
+    "student": "124",
+    "assignment": "67d79f1d512e79dc0f84c23d",
+    "grade": "82"
+  },
+  {
+    "_id": "11",
+    "student": "125",
+    "assignment": "67d79f1d512e79dc0f84c23d",
+    "grade": "81"
+  },
+  {
+    "_id": "12",
+    "student": "126",
+    "assignment": "67d79f1d512e79dc0f84c23d",
+    "grade": "80"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "1",
+    "user": "67d79f1d512e79dc0f84c230",
+    "course": "67d79f1d512e79dc0f84c21b"
+  },
+  {
+    "_id": "2",
+    "user": "67d79f1d512e79dc0f84c231",
+    "course": "67d79f1d512e79dc0f84c21b"
+  },
+  {
+    "_id": "3",
+    "user": "67d79f1d512e79dc0f84c232",
+    "course": "67d79f1d512e79dc0f84c21b"
+  },
+  {
+    "_id": "4",
+    "user": "67d79f1d512e79dc0f84c233",
+    "course": "67d79f1d512e79dc0f84c21b"
+  },
+  {
+    "_id": "5",
+    "user": "67d79f1d512e79dc0f84c234",
+    "course": "67d79f1d512e79dc0f84c21b"
+  },
+  {
+    "_id": "6",
+    "user": "67d79f1d512e79dc0f84c231",
+    "course": "67d79f1d512e79dc0f84c21c"
+  },
+  {
+    "_id": "7",
+    "user": "67d79f1d512e79dc0f84c236",
+    "course": "67d79f1d512e79dc0f84c21c"
+  },
+  {
+    "_id": "8",
+    "user": "67d79f1d512e79dc0f84c237",
+    "course": "67d79f1d512e79dc0f84c21c"
+  },
+  {
+    "_id": "9",
+    "user": "67d79f1d512e79dc0f84c230",
+    "course": "67d79f1d512e79dc0f84c21c"
+  }
+]

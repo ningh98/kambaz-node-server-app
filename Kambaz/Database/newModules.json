@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "67d79f1d512e79dc0f84c242",
+    "name": "Introduction to Rocket Propulsion",
+    "description": "Basic principles of rocket propulsion and rocket engines.",
+    "course": "67d79f1d512e79dc0f84c21b",
+    "lessons": [
+      {
+        "_id": "67d79f1d512e79dc0f84c243",
+        "name": "History of Rocketry",
+        "description": "A brief history of rocketry and space exploration.",
+        "module": "67d79f1d512e79dc0f84c242"
+      },
+      {
+        "_id": "67d79f1d512e79dc0f84c244",
+        "name": "Rocket Propulsion Fundamentals",
+        "description": "Basic principles of rocket propulsion.",
+        "module": "67d79f1d512e79dc0f84c242"
+      },
+      {
+        "_id": "67d79f1d512e79dc0f84c245",
+        "name": "Rocket Engine Types",
+        "description": "Overview of different types of rocket engines.",
+        "module": "67d79f1d512e79dc0f84c242"
+      }
+    ]
+  },
+  {
+    "_id": "67d79f1d512e79dc0f84c246",
+    "name": "Fuel and Combustion",
+    "description": "Understanding rocket fuel, combustion processes, and efficiency.",
+    "course": "67d79f1d512e79dc0f84c21b",
+    "lessons": [
+      {
+        "_id": "67d79f1d512e79dc0f84c247",
+        "name": "Rocket Fuel",
+        "description": "Overview of different types of rocket fuels.",
+        "module": "67d79f1d512e79dc0f84c246"
+      },
+      {
+        "_id": "67d79f1d512e79dc0f84c248",
+        "name": "Combustion Processes",
+        "description": "Understanding combustion processes and efficiency.",
+        "module": "67d79f1d512e79dc0f84c246"
+      },
+      {
+        "_id": "67d79f1d512e79dc0f84c249",
+        "name": "Combustion Instability",
+        "description": "Understanding combustion instability and mitigation.",
+        "module": "67d79f1d512e79dc0f84c246"
+      }
+    ]
+  },
+  {
+    "_id": "67d79f1d512e79dc0f84c24a",
+    "name": "Nozzle Design",
+    "description": "Principles of rocket nozzle design and performance optimization.",
+    "course": "67d79f1d512e79dc0f84c21b",
+    "lessons": [
+      {
+        "_id": "67d79f1d512e79dc0f84c24b",
+        "name": "Nozzle Design",
+        "description": "Overview of different types of rocket nozzles.",
+        "module": "67d79f1d512e79dc0f84c24a"
+      },
+      {
+        "_id": "67d79f1d512e79dc0f84c24c",
+        "name": "Nozzle Performance",
+        "description": "Understanding nozzle performance and efficiency.",
+        "module": "67d79f1d512e79dc0f84c24a"
+      },
+      {
+        "_id": "67d79f1d512e79dc0f84c24d",
+        "name": "Nozzle Optimization",
+        "description": "Optimizing nozzle design for specific applications.",
+        "module": "67d79f1d512e79dc0f84c24a"
+      }
+    ]
+  },
+  {
+    "_id": "67d79f1d512e79dc0f84c24e",
+    "name": "Fundamentals of Aerodynamics",
+    "description": "Basic aerodynamic concepts and fluid dynamics principles.",
+    "course": "67d79f1d512e79dc0f84c21c",
+    "lessons": []
+  },
+  {
+    "_id": "67d79f1d512e79dc0f84c24f",
+    "name": "Subsonic and Supersonic Flow",
+    "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
+    "course": "67d79f1d512e79dc0f84c21c",
+    "lessons": []
+  },
+  {
+    "_id": "67d79f1d512e79dc0f84c250",
+    "name": "Aerodynamic Heating",
+    "description": "Study of aerodynamic heating and thermal protection systems.",
+    "course": "67d79f1d512e79dc0f84c21c",
+    "lessons": []
+  },
+  {
+    "_id": "67d79f1d512e79dc0f84c251",
+    "name": "Spacecraft Structural Design",
+    "description": "Fundamentals of designing spacecraft structures and materials selection.",
+    "course": "67d79f1d512e79dc0f84c21d",
+    "lessons": []
+  },
+  {
+    "_id": "67d79f1d512e79dc0f84c252",
+    "name": "Orbital Mechanics",
+    "description": "Understanding orbital dynamics and mission planning.",
+    "course": "67d79f1d512e79dc0f84c21d",
+    "lessons": []
+  },
+  {
+    "_id": "67d79f1d512e79dc0f84c253",
+    "name": "Spacecraft Systems Engineering",
+    "description": "Overview of spacecraft systems and subsystems engineering.",
+    "course": "67d79f1d512e79dc0f84c21d",
+    "lessons": []
+  }
+]
