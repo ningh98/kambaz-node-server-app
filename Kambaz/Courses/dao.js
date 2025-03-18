@@ -24,7 +24,7 @@ export function deleteCourse(courseId) {
 }
 
 export function updateCourse(courseId, courseUpdates) {
-    return model.updatreOne({ _id: courseId }, courseUpdates);
+    return model.updateOne({ _id: courseId }, courseUpdates);
   }
 
 // export function findPeopleForCourse(courseId){
