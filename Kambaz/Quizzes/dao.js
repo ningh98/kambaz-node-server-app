@@ -5,6 +5,9 @@ export function findQuizForCourse(courseId) {
     return model.find({ course: courseId })
 }
 
+export function findQuizById(quizId) {
+    return model.findById(quizId);
+}
 
 export function createQuiz(quiz) {
     delete quiz._id;

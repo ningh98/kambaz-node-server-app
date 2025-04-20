@@ -10,6 +10,7 @@ import CourseRoutes from './Kambaz/Courses/routes.js';
 import ModuleRoutes from './Kambaz/Modules/routes.js';
 import AssignmentsRoutes from './Kambaz/Assignments/routes.js';
 import QuizzesRoutes from './Kambaz/Quizzes/routes.js';
+import QuizAttemptsRoutes from './Kambaz/QuizAttempts/routes.js';
 
 import mongoose from "mongoose";
 
@@ -46,7 +47,8 @@ UserRoutes(app);
 CourseRoutes(app);
 ModuleRoutes(app);
 AssignmentsRoutes(app);
-QuizzesRoutes(app)
-Hello(app)
-Lab5(app)
+QuizzesRoutes(app);
+QuizAttemptsRoutes(app);
+Hello(app);
+Lab5(app);
 app.listen(process.env.PORT || 4000)
