@@ -2,7 +2,7 @@ import model from "./model.js";
 import { v4 as uuidv4 } from "uuid";
 
 export function findAttemptsByUser(userId) {
-    return model.find({ user: userId }).sort({ startTime: -1 });
+    return model.find({ student: userId }).sort({ startTime: -1 });
 }
 
 export function findAttemptsByQuiz(quizId) {
@@ -10,7 +10,7 @@ export function findAttemptsByQuiz(quizId) {
 }
 
 export function findAttemptsByUserAndQuiz(userId, quizId) {
-    return model.find({ user: userId, quiz: quizId }).sort({ startTime: -1 });
+    return model.find({ student: userId, quiz: quizId }).sort({ startTime: -1 });
 }
 
 export function createAttempt(attempt) {
