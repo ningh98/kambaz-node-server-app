@@ -8,6 +8,16 @@ export function findQuizForCourse(courseId) {
 export function findQuizById(quizId) {
     return model.findById(quizId);
 }
+export function findQuizzesByPartialName(courseId, partialName) {
+    const regex = new RegExp(partialName, "i");
+    return model.find({
+        course: courseId,
+        $or: [
+            { title: { $regex: regex } },
+            { instructions: { $regex: regex } },
+        ],
+    });
+}
 
 export function createQuiz(quiz) {
     delete quiz._id;
